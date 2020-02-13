@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC  "-//mybatis.org//DTD Config 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+       <setting  name="mapUnderscoreToCamelCase"  value="true"/>
+    </settings>
+    <typeAliases>
+    <typeAlias alias="Admin"  type="com.wego.web.admin.Admin"/>
+    <typeAlias alias="User"  type="com.wego.web.cs.User"/>
+    <typeAlias alias="CsProxy"  type="com.wego.web.cs.CsProxy"/>
+    
+    <typeAlias alias="Festival"  type="com.wego.web.festival.Festival"/>
+    
+    <typeAlias alias="Maps"  type="com.wego.web.map.Maps"/>
+    <typeAlias alias="Tourism"  type="com.wego.web.tourism.Tourism"/>
+   <!-- <typeAlias alias="Reply"  type="com.wego.web.community.Reply"/> -->
+    <typeAlias alias="Community"  type="com.wego.web.community.Community"/>
+    <!-- <typeAlias alias="Like"  type="com.wego.web.community.Like"/> -->
+    
+    
+    <typeAlias alias="Hotel"  type="com.wego.web.hotel.Hotel"/>
+    <typeAlias alias="Room"  type="com.wego.web.hotel.Room"/>
+    <typeAlias alias="Comments"  type="com.wego.web.hotel.Comments"/>
+    <typeAlias alias="Reservation"  type="com.wego.web.hotel.Reservation"/>
+    </typeAliases>
+</configuration>
